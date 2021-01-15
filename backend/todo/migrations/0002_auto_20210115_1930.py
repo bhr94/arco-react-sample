@@ -4,7 +4,7 @@ from django.db import migrations
 from django.core.management import call_command
 
 def forwards_func(apps, schema_editor):
-    call_command('loaddata','main_data/todo.json', verbosity=2)
+    call_command('loaddata','./backend/main_data/todo.json', verbosity=2)
 
 def reverse_func(apps, schema_editor):
     ToDo = apps.get_model('todo','ToDo')
