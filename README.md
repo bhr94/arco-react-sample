@@ -9,7 +9,7 @@ Instructions for Sample Submission
 1. at website https://github.com/arco-data-design/arco-react-sample select 'Use This Template'
 2. follow steps to create your repository on github
 3. clone repository locally (git clone http://github.com/YOU/YOUR_REPO)
-4. move to project directory ('arco-react-sample')
+4. move to project directory ('YOUR_REPO')
 5. create and activate python virtual environment
     * https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
     * google can help you find alternate instructions for your OS
