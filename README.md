@@ -24,7 +24,9 @@ Instructions for Sample Submission
 9. frontend setup
     * install yarn (https://classic.yarnpkg.com/en/docs/install)
     * move to arco-react-sample/frontend and run:
-    * yarn start
+        * npm install
+    * then run:
+        * yarn start
 10. Access the frontend app:
     * http://localhost:3000/
 11. Read the below requirements from the 'client'. Choose a scope that you can think you can complete in 1 hour.
