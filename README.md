@@ -10,9 +10,10 @@ Instructions for Sample Submission
 2. follow steps to create your repository on github
 3. clone repository locally (git clone http://github.com/YOU/YOUR_REPO)
 4. move to project directory ('YOUR_REPO')
-5. create and activate python virtual environment
+5. create and activate python virtual environment using Python 3
     * https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
     * google can help you find alternate instructions for your OS
+    * this environment needs to be for python 3.*
 6. install python requirements for the sample:
     * pip install -r backend/requirements.py
 7. migrate to simple sqlite3 database:
