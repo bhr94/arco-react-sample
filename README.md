@@ -15,7 +15,7 @@ Instructions for Sample Submission
     * google can help you find alternate instructions for your OS
     * this environment needs to be for python 3.*
 6. install python requirements for the sample:
-    * pip install -r backend/requirements.py
+    * pip install -r backend/requirements.txt
 7. migrate to simple sqlite3 database:
     * python backend/manage.py migrate
 8. run backend server:
