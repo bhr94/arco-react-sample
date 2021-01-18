@@ -27,6 +27,8 @@ Instructions for Sample Submission
     * move to arco-react-sample/frontend and run:
         * npm install
     * then run:
+        * yarn
+    * then run:
         * yarn start
 10. Access the frontend app:
     * http://localhost:3000/
