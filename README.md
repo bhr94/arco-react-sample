@@ -41,16 +41,18 @@ Instructions for Sample Submission
     14. push commits to your github project, make it public and email the link to contractors@arcodd.com
 
 ### Design Requirements
-Our client would like to you make some updates to our ToDo list application. Please pick some items from the below feature requests that you feel would be the most productive use of your time and complete as much of the work as possible within a 1 hour period. We understand that you may not complete everything in this list - we're looking for high quality, bug free and easily readable work and would prefer to see less items completed well then more attempted and incomplete.
+Our "client" would like to you make some updates to our ToDo list application. Please pick some items from the below feature requests that you feel would be the most productive use of your time and complete as much of the work as possible within a 1 hour period. We understand that you may not complete everything in this list - we're looking for high quality, bug free and easily readable work and would prefer to see less items completed well then more attempted and incomplete. Part of this challenge is interpretting non-techincal requests, estimating accurately the time it will take to complete them, and prioritizing effectively - so please don't worry about trying to touch on everything.
 
-    * Display "Due Date" attribute in the list for each todo item
-    * Display "Priority" attribute in the list for each todo item
-    * Include "Due Date" and "Priority" in the edit and create modal, ensure that they can will be entered correctly and provide the user with accurate feedback
-    * Include headers in the list of items
-    * After including headers, ensure that headers stay 'fixed' in the frame when scrolling down through items
-    * highlight rows in red that are past due
-    * update 'completed_time' in the db when marking a todo complete
-    * include orderable column headers - when clicked once, list is now ordered by the attribute corresponding to the header. When click twiced, the header reverses the order
-    * Have the application fill the entire screen
-    * Style the list of Tasks to appear more like a table and include line numbers (1, 2, 3 for each task)
-    * Create new button “all” (next to “complete” / “Incomplete”) and related functionality to display all Tasks
+In the notes for your commit, please refer to each feature you have completed by letter (A, B, etc) and indicate if you believe the work is complete or incomplete. If incomplete, please give a brief description of your intended next steps. Feel free to include comments in your code detailing this as well.
+
+    A) Display "Due Date" attribute in the list for each todo item
+    B) Display "Priority" attribute in the list for each todo item
+    C) Include "Due Date" and "Priority" in the edit and create modal, ensure that they can will be entered correctly and provide the user with accurate feedback
+    D) Include headers in the list of items
+    E) After including headers, ensure that headers stay 'fixed' in the frame when scrolling down through items
+    F) highlight rows in red that are past due
+    G) update 'completed_time' in the db when marking a todo complete
+    H) include orderable column headers - when clicked once, list is now ordered by the attribute corresponding to the header. When click twiced, the header reverses the order
+    I) Have the application fill the entire screen
+    J) Style the list of Tasks to appear more like a table and include line numbers (1, 2, 3 for each task)
+    K) Create new button “all” (next to “complete” / “Incomplete”) and related functionality to display all Tasks
