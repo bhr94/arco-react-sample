@@ -32,9 +32,14 @@
   .list {
     position: relative !important;
     margin-top: 3rem;
+    z-index:2;
   }
 
   .list-header {
     position: fixed;
     top: 270px;
+  }
+
+  .todo-priority {
+
   }
