@@ -27,3 +27,14 @@
     background-color: #282c34;
     color: #ffffff;
   }
+
+
+  .list {
+    position: relative !important;
+    margin-top: 3rem;
+  }
+
+  .list-header {
+    position: fixed;
+    top: 270px;
+  }
