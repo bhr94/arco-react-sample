@@ -13,6 +13,8 @@ class App extends Component {
         title: "",
         description: "",
         completed: false,
+        priority: "",
+        due_date: new Date().toISOString(),
       },
       todoList: [],
     };
@@ -68,12 +70,25 @@ class App extends Component {
         >
           {item.title}
         </span>
-        <span
-          className={`mr-2 ${this.state.viewCompleted ? "completed-todo" : ""}`}
-          title={item.priority}
-        >
-          {item.priority}
+        <span>
+          <span
+            className={`mr-2 ${
+              this.state.viewCompleted ? "completed-todo" : ""
+            }`}
+            title={item.priority}
+          >
+            {item.priority}
+          </span>
+          <span
+            className={`mr-2 ${
+              this.state.viewCompleted ? "completed-todo" : ""
+            }`}
+            title={item.priority}
+          >
+            {item.priority}
+          </span>
         </span>
+
         <span>
           <button
             onClick={() => this.editItem(item)}

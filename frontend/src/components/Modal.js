@@ -21,20 +21,25 @@ export default class CustomModal extends Component {
       activeItem: this.props.activeItem,
     };
   }
-  // componentDidUpdate() {
-  //   // Access ISO String and formatted values from the DOM.
-  //   var hiddenInputElement = document.getElementById("example-datepicker");
-  //   console.log(hiddenInputElement.value); // ISO String, ex: "2016-11-19T12:00:00.000Z"
-  //   console.log(hiddenInputElement.getAttribute("data-formattedvalue")); // Formatted String, ex: "11/19/2016"
-  // }
+
   handleChange = (e) => {
     let { name, value } = e.target;
     if (e.target.type === "checkbox") {
       value = e.target.checked;
     }
+    // if(e.target.type === "date") {
+
+    // }
     const activeItem = { ...this.state.activeItem, [name]: value };
     this.setState({ activeItem });
   };
+
+  handleDateChange(value, formattedValue) {
+    this.setState({
+      value: value, // ISO String, ex: "2016-11-19T12:00:00.000Z"
+      formattedValue: formattedValue, // Formatted String, ex: "11/19/2016"
+    });
+  }
   render() {
     const { toggle, onSave } = this.props;
     return (
@@ -84,10 +89,12 @@ export default class CustomModal extends Component {
               />
             </FormGroup>
             <FormGroup>
-              <Label for="duedate">Due Date</Label>
+              <Label for="due_date">Due Date</Label>
               <DatePicker
-                name="duedate"
-                value={this.state.duedate}
+                type="date"
+                id="example-datepicker"
+                name="due_date"
+                value={this.state.due_date}
                 placeholder="Enter Todo duedate"
                 onChange={this.handleChange}
               />
